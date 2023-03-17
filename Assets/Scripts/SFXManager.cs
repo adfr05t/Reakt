@@ -18,8 +18,16 @@ public class SFXManager : MonoBehaviour
 
     public void ClickTargetSFX()
     {
-        audioSource.clip = clickTarget;
-        audioSource.volume = clickTargetVol;
+      //  audioSource.clip = clickTarget;
+      //  audioSource.volume = clickTargetVol;
         audioSource.Play();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            ClickTargetSFX();
+        }
     }
 }

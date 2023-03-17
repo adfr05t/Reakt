@@ -103,7 +103,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
-  theRound1Manager: {fileID: 0}
 --- !u!1 &7692865892441599949
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +166,10 @@ MonoBehaviour:
   myPointValue: 3
   target: {fileID: 7692865891609116872}
   targetScript: {fileID: 1937502309136447805}
+  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
+    type: 3}
+  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
+    type: 3}
 --- !u!1 &7692865892688658538
 GameObject:
   m_ObjectHideFlags: 0

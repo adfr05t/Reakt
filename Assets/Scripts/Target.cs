@@ -27,8 +27,8 @@ public class Target : MonoBehaviour
 
     public void UpdateScoreManager(int myPointValue)
     {
-        theScoreManager.UpdateScore(myPointValue);
         theSFXManager.ClickTargetSFX();
+        theScoreManager.UpdateScore(myPointValue);
     }
 
     void OnDestroy()
