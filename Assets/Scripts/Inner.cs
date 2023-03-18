@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Inner : MonoBehaviour
 {
-
     [SerializeField] int myPointValue;
     [SerializeField] GameObject target;
     [SerializeField] Target targetScript;
@@ -12,18 +11,28 @@ public class Inner : MonoBehaviour
     [SerializeField] private ParticleSystem particleEffect;
     [SerializeField] private GameObject pointsScoredAnim;
 
+
     private void Start()
     {
-       theSFXManager = FindObjectOfType<SFXManager>();
+        theSFXManager = FindObjectOfType<SFXManager>();
     }
-    private void OnMouseDown()
+
+
+    void OnMouseDown()
     {
         Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 spawnPos = new Vector3(clickPos.x, clickPos.y, 0);
-        Instantiate(particleEffect, spawnPos, Quaternion.identity);
-        Instantiate(pointsScoredAnim, spawnPos, Quaternion.identity);
+        SpawnEffects(spawnPos);
+
         theSFXManager.ClickTargetSFX();
         targetScript.UpdateScoreManager(myPointValue);
         Destroy(target);
+    }
+
+
+    void SpawnEffects(Vector3 spawnPos)
+    {
+        Instantiate(particleEffect, spawnPos, Quaternion.identity);
+        Instantiate(pointsScoredAnim, spawnPos, Quaternion.identity);
     }
 }

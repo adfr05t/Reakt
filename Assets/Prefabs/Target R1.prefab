@@ -233,6 +233,10 @@ MonoBehaviour:
   myPointValue: 2
   target: {fileID: 7692865891609116872}
   targetScript: {fileID: 1937502309136447805}
+  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
+    type: 3}
+  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
+    type: 3}
 --- !u!1 &7692865892924573794
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,3 +300,7 @@ MonoBehaviour:
   myPointValue: 1
   target: {fileID: 7692865891609116872}
   targetScript: {fileID: 1937502309136447805}
+  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
+    type: 3}
+  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
+    type: 3}
