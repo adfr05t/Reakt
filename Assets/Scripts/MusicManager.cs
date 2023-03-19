@@ -10,7 +10,6 @@ public class MusicManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        
     }
 
     public void PlayIntroMusic()
