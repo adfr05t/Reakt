@@ -61,7 +61,10 @@ public class Round1Manager : MonoBehaviour
                 break;
         }
 
-        Instantiate(target, new Vector2(xPos, yPos), Quaternion.identity);
+        // Instantiate(target, new Vector2(xPos, yPos), Quaternion.identity);
+        var newTarget = TargetPool.Instance.Get();
+        newTarget.transform.position = new Vector2(xPos, yPos);
+        newTarget.gameObject.SetActive(true);
         targetOnScreen = true;
     }
 

@@ -44,7 +44,7 @@ public class TargetScoringArea : MonoBehaviour
 
     void RemoveTarget()
     {
-        // TargetPool.Instance.ReturnToPool(target);
-        Destroy(target.gameObject);
+        TargetPool.Instance.ReturnToPool(target);
+        //Destroy(target.gameObject);
     }
 }

@@ -31,7 +31,7 @@ public class Target : MonoBehaviour
         theScoreManager.UpdateScore(myPointValue);
     }
 
-    void OnDestroy()
+    void OnDisable()
     {
         if (theRound1Manager != null)
         {
