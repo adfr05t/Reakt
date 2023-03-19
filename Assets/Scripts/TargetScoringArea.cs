@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Middle : MonoBehaviour
+public class TargetScoringArea : MonoBehaviour
 {
     [SerializeField] int myPointValue;
-    [SerializeField] GameObject target;
-    [SerializeField] Target targetScript;
+    [SerializeField] Target target;
     private SFXManager theSFXManager;
     [SerializeField] private ParticleSystem particleEffect;
     [SerializeField] private GameObject pointsScoredAnim;
@@ -17,22 +16,35 @@ public class Middle : MonoBehaviour
         theSFXManager = FindObjectOfType<SFXManager>();
     }
 
-
     void OnMouseDown()
     {
         Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 spawnPos = new Vector3(clickPos.x, clickPos.y, 0);
         SpawnEffects(spawnPos);
-
-        theSFXManager.ClickTargetSFX();
-        targetScript.UpdateScoreManager(myPointValue);
-        Destroy(target);
+        PlaySound();
+        UpdateScore();
+        RemoveTarget();
     }
-
 
     void SpawnEffects(Vector3 spawnPos)
     {
         Instantiate(particleEffect, spawnPos, Quaternion.identity);
         Instantiate(pointsScoredAnim, spawnPos, Quaternion.identity);
+    }
+
+    void PlaySound()
+    {
+        theSFXManager.ClickTargetSFX();
+    }
+
+    void UpdateScore()
+    {
+        target.UpdateScoreManager(myPointValue);
+    }
+
+    void RemoveTarget()
+    {
+        // TargetPool.Instance.ReturnToPool(target);
+        Destroy(target.gameObject);
     }
 }

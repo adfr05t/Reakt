@@ -113,7 +113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7692865892441599948}
   - component: {fileID: 7692865892441599951}
-  - component: {fileID: 7692865892441599950}
+  - component: {fileID: 7109494333615537988}
   m_Layer: 0
   m_Name: inner
   m_TagString: Untagged
@@ -151,7 +151,7 @@ CircleCollider2D:
   m_Offset: {x: -0.058596015, y: -0.033552587}
   serializedVersion: 2
   m_Radius: 0.14808983
---- !u!114 &7692865892441599950
+--- !u!114 &7109494333615537988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,12 +160,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7692865892441599949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
+  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 7692865891609116872}
-  targetScript: {fileID: 1937502309136447805}
+  target: {fileID: 1937502309136447805}
   particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
     type: 3}
   pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
@@ -180,7 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7692865892688658517}
   - component: {fileID: 7692865892688658516}
-  - component: {fileID: 7692865892688658519}
+  - component: {fileID: 7122157667199754681}
   m_Layer: 0
   m_Name: middle
   m_TagString: Untagged
@@ -218,7 +217,7 @@ CircleCollider2D:
   m_Offset: {x: -0.059031457, y: -0.030171633}
   serializedVersion: 2
   m_Radius: 0.31109926
---- !u!114 &7692865892688658519
+--- !u!114 &7122157667199754681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,12 +226,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7692865892688658538}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
+  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 7692865891609116872}
-  targetScript: {fileID: 1937502309136447805}
+  target: {fileID: 1937502309136447805}
   particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
     type: 3}
   pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
@@ -298,8 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 7692865891609116872}
-  targetScript: {fileID: 1937502309136447805}
+  target: {fileID: 1937502309136447805}
   particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
     type: 3}
   pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
