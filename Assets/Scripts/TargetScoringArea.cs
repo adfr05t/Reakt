@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TargetScoringArea : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class TargetScoringArea : MonoBehaviour
     private SFXManager theSFXManager;
     [SerializeField] private ParticleSystem particleEffect;
     [SerializeField] private GameObject pointsScoredAnim;
+    private bool thisIsRound1;
 
 
     private void Start()
     {
         theSFXManager = FindObjectOfType<SFXManager>();
+        thisIsRound1 = (SceneManager.GetActiveScene().name == "Round 1") ? true : false;
     }
 
     void OnMouseDown()
@@ -44,7 +47,13 @@ public class TargetScoringArea : MonoBehaviour
 
     void RemoveTarget()
     {
-        TargetPool.Instance.ReturnToPool(target);
-        //Destroy(target.gameObject);
+        if (thisIsRound1)
+        {
+            TargetPool.Instance.ReturnToPool(target);
+        }
+        else
+        {
+            Destroy(target.gameObject);
+        }
     }
 }

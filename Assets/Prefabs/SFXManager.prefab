@@ -140,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2631fbefa6f232f49aa648f4615fab3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickTarget: {fileID: 8300000, guid: 03bd3c380e355c14f98cffa28e45ea43, type: 3}
+  clickTarget: {fileID: 8300000, guid: 5f5e75790090c6b498f7df7e842620eb, type: 3}
   newRound: {fileID: 8300000, guid: 398774c34a296894e9b0da786de58d37, type: 3}
-  clickTargetVol: 0.5
+  clickTargetVol: 0.6
   newRoundVol: 0.5
   audioSource: {fileID: 3997213057659675501}
