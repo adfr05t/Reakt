@@ -48,6 +48,8 @@ public class Round2Manager : MonoBehaviour
                 Wave3();
                 break;
         }
+
+        
     }
 
     void Wave0()
@@ -58,6 +60,7 @@ public class Round2Manager : MonoBehaviour
         targetR2.Remove(thisTarget);
         waveNo++;
         StartCoroutine("PrepareWave");
+
     }
 
     void Wave1()
@@ -68,6 +71,8 @@ public class Round2Manager : MonoBehaviour
             thisTarget.SetActive(true);
             thisTarget.GetComponent<TargetMovement>().speed = Random.Range(minSpeed[waveNo], maxSpeed[waveNo]);
             targetR2.Remove(thisTarget);
+
+
         }
         waveNo++;
         StartCoroutine("PrepareWave");
@@ -81,6 +86,8 @@ public class Round2Manager : MonoBehaviour
             thisTarget.SetActive(true);
             thisTarget.GetComponent<TargetMovement>().speed = Random.Range(minSpeed[waveNo], maxSpeed[waveNo]);
             targetR2.Remove(thisTarget);
+            
+
         }
         waveNo++;
         StartCoroutine("PrepareWave");

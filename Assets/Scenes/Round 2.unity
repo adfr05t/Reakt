@@ -166,11 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 948351707}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 948351706}
+  targetScript: {fileID: 948351707}
 --- !u!58 &22147258
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -224,6 +221,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &24345077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,15 +347,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 26004226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 948351707}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 948351706}
+  targetScript: {fileID: 948351707}
 --- !u!58 &26004229
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -415,15 +410,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 55625685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1994156510}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1994156509}
+  targetScript: {fileID: 1994156510}
 --- !u!58 &55625688
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -481,15 +473,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 106158912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1097762524}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1097762523}
+  targetScript: {fileID: 1097762524}
 --- !u!58 &106158915
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -547,15 +536,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 107247327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1255861221}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1255861220}
+  targetScript: {fileID: 1255861221}
 --- !u!58 &107247330
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -613,15 +599,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 157324657}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 797661253}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 797661252}
+  targetScript: {fileID: 797661253}
 --- !u!58 &157324660
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -679,15 +662,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 184500476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1365633866}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1365633865}
+  targetScript: {fileID: 1365633866}
 --- !u!58 &184500479
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -751,15 +731,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 272269500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1583300306}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1583300305}
+  targetScript: {fileID: 1583300306}
 --- !u!58 &272269503
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -821,11 +798,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1994156510}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1994156509}
+  targetScript: {fileID: 1994156510}
 --- !u!58 &295901491
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -883,15 +857,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 352543802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1255861221}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1255861220}
+  targetScript: {fileID: 1255861221}
 --- !u!58 &352543805
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -949,15 +920,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 395355240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 797661253}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 797661252}
+  targetScript: {fileID: 797661253}
 --- !u!58 &395355243
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1015,15 +983,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 419067071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1731099297}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1731099296}
+  targetScript: {fileID: 1731099297}
 --- !u!58 &419067074
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1081,15 +1046,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 480529412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 948351707}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 948351706}
+  targetScript: {fileID: 948351707}
 --- !u!58 &480529415
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1155,6 +1117,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &515004827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1280,15 +1243,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 624663379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 24345076}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 24345075}
+  targetScript: {fileID: 24345076}
 --- !u!58 &624663382
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1346,15 +1306,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 634560831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1007003167}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1007003166}
+  targetScript: {fileID: 1007003167}
 --- !u!58 &634560834
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1416,11 +1373,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1731099297}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1731099296}
+  targetScript: {fileID: 1731099297}
 --- !u!58 &687921142
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1482,11 +1436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1255861221}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1255861220}
+  targetScript: {fileID: 1255861221}
 --- !u!58 &702692847
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1548,11 +1499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1895207560}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1895207559}
+  targetScript: {fileID: 1895207560}
 --- !u!58 &743564673
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1610,15 +1558,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 745285167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1097762524}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1097762523}
+  targetScript: {fileID: 1097762524}
 --- !u!58 &745285170
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1676,15 +1621,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 746814071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1943689993}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1943689992}
+  targetScript: {fileID: 1943689993}
 --- !u!58 &746814074
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1746,11 +1688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1097762524}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1097762523}
+  targetScript: {fileID: 1097762524}
 --- !u!58 &778942801
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1804,6 +1743,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &797661254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1929,15 +1869,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 845246085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 515004826}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 515004825}
+  targetScript: {fileID: 515004826}
 --- !u!58 &845246088
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1999,7 +1936,7 @@ PrefabInstance:
     - target: {fileID: 8479527728312455080, guid: b3f003b8baf860a42a9d5acef007a405,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8479527728312455080, guid: b3f003b8baf860a42a9d5acef007a405,
         type: 3}
@@ -2128,11 +2065,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1007003167}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1007003166}
+  targetScript: {fileID: 1007003167}
 --- !u!58 &868955821
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2186,6 +2120,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &948351708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,6 +2323,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1007003168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,15 +2449,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1056922929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1943689993}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1943689992}
+  targetScript: {fileID: 1943689993}
 --- !u!58 &1056922932
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2575,6 +2508,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1097762525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,11 +2638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 797661253}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 797661252}
+  targetScript: {fileID: 797661253}
 --- !u!58 &1135160425
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2766,15 +2697,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1154511796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1421105643}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1421105642}
+  targetScript: {fileID: 1421105643}
 --- !u!58 &1154511799
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2828,6 +2756,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1205414164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,15 +2882,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235116282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 24345076}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 24345075}
+  targetScript: {fileID: 24345076}
 --- !u!58 &1235116285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3106,11 +3032,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 515004826}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 515004825}
+  targetScript: {fileID: 515004826}
 --- !u!58 &1243431269
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3164,6 +3087,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1255861222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3293,11 +3217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1943689993}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1943689992}
+  targetScript: {fileID: 1943689993}
 --- !u!58 &1284391436
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3355,15 +3276,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1295735120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1583300306}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1583300305}
+  targetScript: {fileID: 1583300306}
 --- !u!58 &1295735123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3425,11 +3343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1205414163}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1205414162}
+  targetScript: {fileID: 1205414163}
 --- !u!58 &1342115771
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3483,6 +3398,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1365633867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,6 +3520,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1421105644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3725,6 +3642,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1474989752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3854,11 +3772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1421105643}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1421105642}
+  targetScript: {fileID: 1421105643}
 --- !u!58 &1475308610
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3916,15 +3831,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1523374238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1205414163}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1205414162}
+  targetScript: {fileID: 1205414163}
 --- !u!58 &1523374241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4093,6 +4005,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1583300307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4218,15 +4131,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1596550787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1895207560}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1895207559}
+  targetScript: {fileID: 1895207560}
 --- !u!58 &1596550790
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4298,7 +4208,7 @@ PrefabInstance:
     - target: {fileID: 2691893145095487420, guid: a3be1fb4a0dfdee4580f0dca0f21e0ed,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2691893145095487420, guid: a3be1fb4a0dfdee4580f0dca0f21e0ed,
         type: 3}
@@ -4548,15 +4458,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1638728066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1421105643}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1421105642}
+  targetScript: {fileID: 1421105643}
 --- !u!58 &1638728069
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4614,15 +4521,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682362161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1205414163}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1205414162}
+  targetScript: {fileID: 1205414163}
 --- !u!58 &1682362164
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4680,15 +4584,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1703155878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 515004826}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 515004825}
+  targetScript: {fileID: 515004826}
 --- !u!58 &1703155881
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4746,15 +4647,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1715285564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1895207560}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1895207559}
+  targetScript: {fileID: 1895207560}
 --- !u!58 &1715285567
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4808,6 +4706,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1731099298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5014,15 +4913,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767547197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1994156510}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1994156509}
+  targetScript: {fileID: 1994156510}
 --- !u!58 &1767547200
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5080,15 +4976,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1824875658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1365633866}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1365633865}
+  targetScript: {fileID: 1365633866}
 --- !u!58 &1824875661
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5146,15 +5039,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827300600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1474989751}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1474989750}
+  targetScript: {fileID: 1474989751}
 --- !u!58 &1827300603
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5216,11 +5106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 24345076}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 24345075}
+  targetScript: {fileID: 24345076}
 --- !u!58 &1870663692
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5274,6 +5161,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1895207561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5395,6 +5283,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1943689994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5520,15 +5409,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945221282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1731099297}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1731099296}
+  targetScript: {fileID: 1731099297}
 --- !u!58 &1945221285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5586,15 +5472,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1957316689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c76e146e9ea1de40a2b4b587df872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 2
-  target: {fileID: 1474989751}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 4542400213500527765, guid: 0aa29bbbd1310374ebe10259cf005851,
-    type: 3}
+  target: {fileID: 1474989750}
+  targetScript: {fileID: 1474989751}
 --- !u!58 &1957316692
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5678,21 +5561,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3997213057659675501, guid: 781633f2cc104c34492f9678ce1adc53,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 5f5e75790090c6b498f7df7e842620eb, type: 3}
-    - target: {fileID: 3997213057659675501, guid: 781633f2cc104c34492f9678ce1adc53,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5203516225124218000, guid: 781633f2cc104c34492f9678ce1adc53,
-        type: 3}
-      propertyPath: clickTarget
-      value: 
-      objectReference: {fileID: 8300000, guid: 5f5e75790090c6b498f7df7e842620eb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 781633f2cc104c34492f9678ce1adc53, type: 3}
 --- !u!1 &1994156509
@@ -5732,6 +5600,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1296e93663cf4094286bcb48c80af5cd, type: 3}
   - {fileID: 21300000, guid: debd7c3eefb03e043aa50747251e205f, type: 3}
   - {fileID: 21300000, guid: 31c9d2057980bc9408b835aee444e31e, type: 3}
+  theRound1Manager: {fileID: 0}
 --- !u!114 &1994156511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5861,11 +5730,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1474989751}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1474989750}
+  targetScript: {fileID: 1474989751}
 --- !u!58 &2016672164
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5923,15 +5789,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018560258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8b28dd95e96f1b47a1cc51ce52c6d36, type: 3}
+  m_Script: {fileID: 11500000, guid: 8185bf1892555bd4288704699b2d7bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 3
-  target: {fileID: 1007003167}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 8509631156383131355, guid: 1bad00d50ee481a4cb94dfedee3555a8,
-    type: 3}
+  target: {fileID: 1007003166}
+  targetScript: {fileID: 1007003167}
 --- !u!58 &2018560261
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5993,11 +5856,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1583300306}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1583300305}
+  targetScript: {fileID: 1583300306}
 --- !u!58 &2023659836
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6059,11 +5919,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPointValue: 1
-  target: {fileID: 1365633866}
-  particleEffect: {fileID: 7918751523981993614, guid: 56e3f89bd31fe9741857dc402b873cac,
-    type: 3}
-  pointsScoredAnim: {fileID: 1687016289191613920, guid: 55bb56f4e2615ea4c9893761d3c03078,
-    type: 3}
+  target: {fileID: 1365633865}
+  targetScript: {fileID: 1365633866}
 --- !u!58 &2129846072
 CircleCollider2D:
   m_ObjectHideFlags: 0
